@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     z-index: 0;
+    overflow-x:hidden;
+}
+* {
+    box-sizing: border-box;
 }
 
 .container {
@@ -269,3 +273,8 @@ footer {
     align-items: center;
     margin-top: 25%;
 }
+.map iframe {
+    max-width: 100%;
+    width: 100%;
+}
+
